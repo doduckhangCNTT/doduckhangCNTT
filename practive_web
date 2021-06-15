@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: purple;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
 
+div:hover {
+  width: 300px;
+}
+</style>
+</head>
+<body>
+
+<h1>Thuộc tính transition</h1>
+
+<p>Di chuột vào phần tử để thấy hiệu ứng transition:</p>
+<div></div>
+
+</body>
+</html>
