@@ -1,0 +1,23 @@
+ul.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.products > li {
+  width: 50%;
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  display: block;
+  background: white;
+  z-index: 10000;
+}
+
+.cart.hidden {
+  display: none;
+}
